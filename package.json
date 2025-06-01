@@ -1,0 +1,17 @@
+{
+    "name": "construction-materials-system",
+    "version": "1.0.0",
+    "description": "建設資材流通管理システム - フェーズ1",
+    "main": "public/index.html",
+    "scripts": {
+      "dev": "python -m http.server 3000 --directory public",
+      "build": "echo 'Static site - no build required'",
+      "start": "npm run dev"
+    },
+    "keywords": ["construction", "materials", "management", "OCR", "AI"],
+    "author": "Your Company Name",
+    "license": "MIT",
+    "devDependencies": {
+      "http-server": "^14.1.1"
+    }
+  }
